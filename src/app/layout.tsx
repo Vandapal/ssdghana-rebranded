@@ -4,6 +4,7 @@ import "./globals.css";
 import { NextFont } from "next/dist/compiled/@next/font";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 
 const poppins: NextFont = Poppins({
   weight: ["300", "500", "700"],
@@ -24,13 +25,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
-      <body className={`${poppins.className} antialiased overflow-hidden`}>
+      <body className={`${poppins.className} antialiased overflow-x-hidden`}>
         <header>
           <Navbar />
         </header>
         {children}
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   );
