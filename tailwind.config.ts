@@ -63,10 +63,13 @@ const config: Config = {
         square: "square",
       },
       screens: {
-        ab: '1220px'
+        extra_lg: '1440px'
       },
       container: {
       },
+      fontFamily: {
+        ab: ['1rem']
+      }
     },
   },
   plugins: [tailwindcssAnimate, containerQueries],

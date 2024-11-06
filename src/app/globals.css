@@ -56,6 +56,15 @@
   @apply font-light text-xl text-justify lg:text-sm;
 }
 
+.saica-activity-text {
+  @apply text-slate-600 font-light text-[18px] text-justify lg:text-left;
+}
+
+@media (min-width: 1200px) and (max-width: 1123px) {
+  .bg-md-only {
+  }
+}
+
 
 @layer base {
   :root {
