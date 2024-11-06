@@ -27,8 +27,10 @@ export default function RootLayout({
       <Head>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
-      <body className={`${poppins.className} antialiased overflow-x-hidden`}>
-        <header>
+      <body
+        className={`${poppins.className} antialiased overflow-x-hidden scroll-smooth`}
+      >
+        <header className="relative h-fit">
           <Navbar />
         </header>
         {children}
