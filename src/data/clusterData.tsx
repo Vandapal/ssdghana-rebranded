@@ -7,8 +7,7 @@ import {
 } from "react-icons/fa6";
 import { FiDollarSign } from "react-icons/fi";
 import { PiBuildingsLight } from "react-icons/pi";
-const url =
-  "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+
 
 interface Props extends CardFourProps {
     id: number
@@ -21,7 +20,7 @@ const clusterData: Props[] = [
     imageUrl: url,
     description:
       "In its World employment and social trends outlook for 2020, the ILO emphasizes that poor working conditions manifest themselves in low incomes. The statistics look grim even at the global level. For instance in 2019 , the ILO reported that almost one in five, or 19 per cent, of all those employed did not earn enough to lift themselves and their families out of extreme or moderate poverty; a situation likely to significantly derail global poverty reduction targets by 2030.",
-    icon: <FaArrowTrendUp />,
+    icon: <FaArrowTrendUp className="w-50 h-50 aspect-square"/>,
   },
   {
     id: 2,
@@ -54,7 +53,7 @@ const clusterData: Props[] = [
     id: 5,
     title: 'URBANISATION AND LAND GOVERNANCE',
     imageUrl: url,
-    description: 'Africa’s population is already 40% urbanised, and projections indicate that the continent is likely to cross the ‘magical’ 50% urban threshold shortly after 2030 (United Nations, 2012; 2014). The profound nature of Africa’s urban transition calls for a collective rethinking of the governance and policy imperatives which assure prosperity and well-being for the majority of city residents. Ghana is reported to have crossed the urban divide in 2010 with about 51% of the population now living in urban areas.',
+    description: 'Africa&apos;s population is already 40% urbanised, and projections indicate that the continent is likely to cross the ‘magical’ 50% urban threshold shortly after 2030 (United Nations, 2012; 2014). The profound nature of Africa’s urban transition calls for a collective rethinking of the governance and policy imperatives which assure prosperity and well-being for the majority of city residents. Ghana is reported to have crossed the urban divide in 2010 with about 51% of the population now living in urban areas.',
     icon: <PiBuildingsLight />
   }
 ];

@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased overflow-x-hidden scroll-smooth`}
       >
-        <header className="relative h-fit">
+        <header className="relative">
           <Navbar />
         </header>
         {children}
