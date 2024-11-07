@@ -18,7 +18,7 @@ export default function Navbar() {
     return pathname === path || pathname.includes(path)
   }
   return (
-    <nav className="flex w-full items-center justify-between py-7 px-10 lg:px-32 bg-white text-slate-600 text-sm shadow-md fixed top-0 left-0 right-0 z-50">
+    <nav className="flex w-full items-center justify-between py-7 px-10 lg:px-32 bg-white text-slate-600 text-sm shadow-md !sticky top-30 left-0 right-0 z-50">
       <Link className="flex gap-2 justify-center items-center" href="/">
         {/* To be replaced with icon */}
         <Image
