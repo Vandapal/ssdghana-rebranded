@@ -35,7 +35,6 @@
   @apply w-7 h-[3px] bg-slate-600 transform transition;
 }
 
-
 .icon {
   @apply transition duration-300;
 }
@@ -66,23 +65,23 @@
 }
 
 .stem-img {
-  @apply hidden col-span-full row-span-full aspect-square object-cover lg:block
+  @apply hidden col-span-full row-span-full aspect-square object-cover lg:block;
 }
 
 .stem-text {
   @apply font-light text-sm text-justify lg:w-[70%] lg:text-base lg:text-left;
 }
 
-@media screen and (width: 1020px) {
-  .ab {
-
-  }
+.volunteer-list-item {
+  @apply list-disc font-light text-slate-600 marker:!text-orange-500 leading-5 marker:text-2xl ml-5 lg:text-xl;
 }
 
+.email {
+  @apply text-orange-500 underline font-semibold;
+}
 
 @layer base {
   :root {
-
     --background: 0 0% 100%;
 
     --foreground: 240 10% 3.9%;
@@ -131,10 +130,9 @@
 
     --chart-5: 27 87% 67%;
 
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
   .dark {
-
     --background: 240 10% 3.9%;
 
     --foreground: 0 0% 98%;
@@ -181,10 +179,9 @@
 
     --chart-4: 280 65% 60%;
 
-    --chart-5: 340 75% 55%
+    --chart-5: 340 75% 55%;
   }
 }
-
 
 @layer base {
   * {
