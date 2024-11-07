@@ -65,6 +65,20 @@
   }
 }
 
+.stem-img {
+  @apply hidden col-span-full row-span-full aspect-square object-cover lg:block
+}
+
+.stem-text {
+  @apply font-light text-sm text-justify lg:w-[70%] lg:text-base lg:text-left;
+}
+
+@media screen and (width: 1020px) {
+  .ab {
+
+  }
+}
+
 
 @layer base {
   :root {

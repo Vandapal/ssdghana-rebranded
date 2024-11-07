@@ -67,8 +67,8 @@ const config: Config = {
       },
       container: {
       },
-      fontFamily: {
-        ab: ['1rem']
+      fontSize: {
+        base: ['16px', '24px']
       }
     },
   },
