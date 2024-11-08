@@ -56,6 +56,29 @@
   @apply font-light text-xl text-justify lg:text-sm;
 }
 
+.saica-activity-text {
+  @apply text-slate-600 font-light text-[18px] text-justify lg:text-left;
+}
+
+@media (min-width: 1200px) and (max-width: 1123px) {
+  .bg-md-only {
+  }
+}
+
+.stem-img {
+  @apply hidden col-span-full row-span-full aspect-square object-cover lg:block
+}
+
+.stem-text {
+  @apply font-light text-sm text-justify lg:w-[70%] lg:text-base lg:text-left;
+}
+
+@media screen and (width: 1020px) {
+  .ab {
+
+  }
+}
+
 
 @layer base {
   :root {

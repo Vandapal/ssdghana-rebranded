@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 bg-slate-800 text-white p-5 mt-auto">
+    <footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 bg-slate-800 text-white p-5">
       <p className="font-semibold text-md">&copy; 2024 SDD Ghana</p>
       <ul className="flex gap-3">
         <li>
@@ -24,6 +24,6 @@ export default function Footer() {
       <p className="lg:ml-auto inline-flex gap-1 mr-10">
         SDD Ghana | <Link href="">Built by Salvatore Brothers </Link>
       </p>
-    </section>
+    </footer>
   );
 }
