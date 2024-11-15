@@ -2,7 +2,7 @@ import Card from "@/components/card/Card";
 import { TbTargetArrow } from "react-icons/tb";
 import { PiEyeLight } from "react-icons/pi";
 import { DiAtom } from "react-icons/di";
-import { IoArrowForwardCircleOutline } from "react-icons/io5";
+// import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import objectivesData from "@/data/objectivesData";
 import GoalCard from "@/components/goal-card/GoalCard";
 import CardTwo from "@/components/card-two/CardTwo";
