@@ -26,7 +26,7 @@ class ErrorBoundary extends Component<Props, State> {
 
   render(): ReactNode {
     if(this.state.hasError) {
-      return <h1>An error occurred {this.state.errorMessage}</h1>
+      return <h1 className='text-center text-xl font-bold'>An error occurred {this.state.errorMessage}!</h1>
     } else {
       return this.props.children
     }

@@ -13,7 +13,7 @@ export default function SaicaActivityPage() {
       </div>
       {/* Content */}
       <div className="lg:w-[70%] w-full lg:items-start mx-10 mb-10 flex flex-col items-center lg:mx-auto ">
-        <h1 className="text-5xl text-center lg:ml-6 font-semibold text-slate-800">SAICA</h1>
+        <h1 className="text-7xl font-semibold text-slate-800">SAICA</h1>
         {/* Texts */}
         <div className="flex flex-col gap-6 my-4 extra_lg:w-[80%]  w-full ">
           <p className="saica-activity-text">
@@ -40,15 +40,15 @@ export default function SaicaActivityPage() {
         </div>
         <Button
           asChild
-          className="bg-orange-400 shadow-md hover:bg-orange-300 mt-4 md:mt-0 !max-h-40 "
+          className="bg-orange-400 shadow-md transition-all hover:bg-orange-300 mt-4 md:mt-0 !max-h-40 group hover:scale-105"
           size="lg"
         >
           <Link href="https://www.star-ghana.org/" target="_blank">
-            Visit Star Ghana <FaArrowRight />
+            Visit Star Ghana <FaArrowRight className="transition-all group-hover:translate-x-2"/>
           </Link>
         </Button>
       </div>
-      <div className="hidden absolute right-0 bottom-0 extra_lg:flex lg:h-[350px] aspect-square">
+      <div className="hidden absolute right-0 -bottom-20 extra_lg:flex lg:h-[450px] aspect-square">
         <Image src="/assets/woman.svg" alt="Woman pointing to sky" fill />
       </div>
     </main>

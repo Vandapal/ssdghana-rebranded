@@ -27,7 +27,7 @@ export default function Navbar() {
           width={50}
           height={50}
         />
-        <h1 className="text-xl font-bold text-green-600">SDD Ghana</h1>
+        <h1 className="text-xl font-bold text-orange-400">SDD Ghana</h1>
       </Link>
       {/* List item */}
       <NavList showMobileNav={showMobileNav} isActive={isActive}/>
