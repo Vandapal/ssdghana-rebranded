@@ -26,7 +26,7 @@ export default function ContactPage() {
       {/* Contact */}
       <div className="bg-orange-100 px-5 pt-7 w-full flex flex-col items-center lg:flex-row isolate lg:items-start lg:justify-start">
         <div className="flex flex-col items-center justify-center gap-10 mx-5 mt-20 lg:items-start lg:ml-24">
-          <h1 className="text-5xl font-black text-center lg:text-6xl lg:text-left lg:w-[70%] leading-3">
+          <h1 className="text-5xl font-black text-center lg:text-6xl lg:text-left lg:w-[70%]">
             We are here for you, contact us anytime.
           </h1>
           <p className="text-xl text-center text-slate-500 md:w-[70%] lg:w-[70%] lg:text-xl lg:text-left">
