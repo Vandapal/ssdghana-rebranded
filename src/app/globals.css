@@ -80,6 +80,10 @@
   @apply text-orange-500 underline font-semibold;
 }
 
+.contact-headers {
+  @apply capitalize text-center my-4 font-bold text-2xl;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

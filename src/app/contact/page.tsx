@@ -1,9 +1,14 @@
 export default function ContactPage() {
   return (
-    <main>
+    <main className="container space-x-10 h-dvh">
+      {/* Contact form */}
+      <div className="contact-headers">
+        Send us a message
+      </div>
+      {/* Socials */}
       <div>
-        <h1 className="capitalize">get in touch</h1>
-        <p>Contact us on the following media.</p>
+        <h1 className="contact-headers">get in touch with us</h1>
+
       </div>
     </main>
   );

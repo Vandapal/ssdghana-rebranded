@@ -5,6 +5,7 @@ import { NextFont } from "next/dist/compiled/@next/font";
 import Navbar from "@/components/navbar/Navbar";
 import Head from "next/head";
 import Footer from "@/components/Footer";
+import ErrorBoundary from "../../error-boundary/ErrorBoundary";
 
 const poppins: NextFont = Poppins({
   weight: ["300", "500", "700"],
@@ -24,18 +25,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <Head key={"head"}>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
-      <body
-        className={`${poppins.className} antialiased overflow-x-hidden scroll-smooth relative h-screen`}
-      >
-        <header className="relative">
-          <Navbar />
-        </header>
-        {children}
-        <Footer />
-      </body>
+      <ErrorBoundary>
+        <body
+          className={`${poppins.className} antialiased overflow-x-hidden scroll-smooth relative h-screen`}
+        >
+          <header className="relative">
+            <Navbar />
+          </header>
+          {children}
+          <Footer />
+        </body>
+      </ErrorBoundary>
     </html>
   );
 }
