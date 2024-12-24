@@ -84,6 +84,10 @@
   @apply capitalize text-center my-4 font-bold text-2xl;
 }
 
+.social-icon {
+  @apply border border-slate-200 w-16 aspect-square p-4 rounded-full flex items-center justify-center;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
